@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-info p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+ 
+}
+
+.contact-info i {
+    margin-right: 5px;
+    color: white;
+    padding-top: 30px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #111, #0055ff, #00aaff);
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    color: white;
+}
+
+.image {
+    width: 140px;
+    height: 140px;
+    border-radius: 10%;
+    border: 4px ;
+    position: absolute;
+    left: 400px;
+    top: 13%;
+    transform: translateY(-50%);
+    z-index: 4;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 100%;
+}
+
+.Rafael{
+    padding: 20px;
+    background: #c2defc;
+    margin: 10px;
+    border: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+
+.banner {
+    flex-grow: 1;
+    text-align: right;
+    padding: 10px;
+}
+
+.contact-info {
+    font-size: 16px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.about, .Experiencia, .education, .skills-languages {
+    padding: 20px 40px 10px 40px;
+    background: #ffffff;
+    margin: 10px;
+    border-radius: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    color: #333;
+    
+}
+
+.job h3 {
+    margin: 0;
+    color: #000000;
+}
+
+.skills, .languages {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
